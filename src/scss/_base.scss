@@ -1,0 +1,25 @@
+@import "_variables.scss";
+@import "_foundation_media_queries.scss";
+
+
+@font-face {
+    font-family: "perrygothic";
+    src: url("../fonts/perrygot-webfont.eot");
+    src: url("../fonts/perrygot-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/perrygot-webfont.woff2") format("woff2"), url("../fonts/perrygot-webfont.woff") format("woff"), url("../fonts/perrygot-webfont.ttf") format("truetype"), url("../fonts/perrygot-webfont.svg#perrygothicregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+    height: 100%;
+    font-family: $font-family-sans-serif;
+    line-height: 1.5;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}

@@ -1,0 +1,16 @@
+﻿// Importing normalize CSS
+@import "../../bower_components/foundation/scss/normalize.scss";
+
+// Importing overridden variables
+@import "_variables.scss";
+
+// Importing visibility classes from foundation
+@import "../../bower_components/foundation/scss/foundation/components/_visibility.scss";
+
+// Importing foundation components
+@import "_foundation_media_queries.scss";
+
+// Animations
+@import "_animations.scss";
+
+@import "_base.scss";
