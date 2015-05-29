@@ -143,8 +143,6 @@ function htmlPipeline(files) {
                 scss: yaml.scss,
                 js: yaml.js,
                 title: yaml.title,
-                tagLine: yaml.tagLine,
-                subLine: yaml.subLine,
                 breadcrumbs: yaml.breadcrumbs
             });
 

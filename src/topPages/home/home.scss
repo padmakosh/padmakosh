@@ -1,2 +1,24 @@
 @import "../../scss/_variables.scss";
 @import "../../scss/_foundation_media_queries.scss";
+
+.page-body {
+    padding: 0 10px;
+}
+
+.content-panel {
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+
+    .content-panel-header {
+        color: $pink-primary;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    .content-panel-body {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+}
