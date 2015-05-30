@@ -19,7 +19,7 @@
             };
 
             $.ajax({
-                url: "//formspree.io/info@shellinovacations.com",
+                url: "//formspree.io/sonal@padmakosh.com",
                 method: "POST",
                 data: formData,
                 dataType: "json"
