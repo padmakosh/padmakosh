@@ -5,4 +5,7 @@
             live_validate: false
         }
     });
+
+    // Scroll reveal pattern
+    new scrollReveal({ mobile: true });
 });

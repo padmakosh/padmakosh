@@ -19,6 +19,7 @@
         "tests"
     ],
     "dependencies": {
-        "foundation": "~5.5.2"
+        "foundation": "~5.5.2",
+        "scrollReveal.js": "~2.3.0"
     }
 }

@@ -50,6 +50,7 @@
             "../bower_components/foundation/js/foundation/foundation.js",
             "../bower_components/foundation/js/foundation/foundation.abide.js",
             "../bower_components/svg4everybody/svg4everybody.js",
+            "../bower_components/scrollReveal.js/scrollReveal.js",
             "js/app.js"
         ]
     }
