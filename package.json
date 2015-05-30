@@ -44,7 +44,13 @@
             "last 2 version"
         ],
         "jsBundle": [
-            "../bower_components/jquery/dist/jquery.js"
+            "../bower_components/modernizr/modernizr.js",
+            "../bower_components/jquery/dist/jquery.js",
+            "../bower_components/fastclick/lib/fastclick.js",
+            "../bower_components/foundation/js/foundation/foundation.js",
+            "../bower_components/foundation/js/foundation/foundation.abide.js",
+            "../bower_components/svg4everybody/svg4everybody.js",
+            "js/app.js"
         ]
     }
 }

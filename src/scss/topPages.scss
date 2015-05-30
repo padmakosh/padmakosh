@@ -211,7 +211,6 @@
     margin-top: 30px;
     background-color: $dark-brown;
     color: $yellowish-white;
-
     padding-top: 30px;
 
     ul {
@@ -222,6 +221,10 @@
 
     a {
         color: $yellowish-white;
+    }
+
+    .vcard {
+        border: none;
     }
 }
 
@@ -234,12 +237,13 @@
 }
 
 .footer-icons {
-    stroke: $yellowish-white;
+    display: block;
     fill: none;
     float: left;
-    display: block;
-    width: 30px;
+    height: 30px;
     margin-right: 10px;
+    stroke: $yellowish-white;
+    width: 30px;
 }
 
 .icon-facebook {
@@ -251,7 +255,10 @@
 }
 
 .footer-logo {
+    max-width: 240px;
+}
+
+.footer-logo-text {
     font-family: $font-family-handwritten;
     font-size: 2rem;
-    text-align: center;
 }
